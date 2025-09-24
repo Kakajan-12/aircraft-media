@@ -1,0 +1,23 @@
+{
+  "Header": {
+    "movie": "Movie",
+    "music": "Music",
+    "books": "Books",
+    "navigation": "Navigation"
+  },
+  "Main": {
+    "aviacompany": "Turkmenistan Airlines",
+    "main-title": "wishes you a pleasant flight!",
+    "main-text": "Мы уверены, что ваше путешествие с Turkmenistan Airlines станет незабываемым. Спасибо, что выбрали нас для вашей поездки. Мы желаем вам приятного полета и надеемся увидеть вас снова на борту наших самолетов!"
+  },
+  "Movie": {
+    "movie-input": "Movie name",
+    "genre": "Genres"
+  },
+  "Music": {
+    "music-input": "Music name",
+    "popular-artist": "Popular musicians",
+    "turkmen-music": "Turkmen music",
+    "top-music": "TOP Foreign Music"
+  }
+}

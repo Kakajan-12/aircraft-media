@@ -1,0 +1,23 @@
+{
+  "Header": {
+    "movie": "Filmler",
+    "music": "Aýdymlar",
+    "books": "Žurnallar",
+    "navigation": "Nawigasiýa"
+  },
+  "Main": {
+    "aviacompany": "Türkmenistan awiakompaniýasy",
+    "main-title": "size ýakymly uçuş arzuw edýär!",
+    "main-text": "Türkmenistan awiakompaniýasy bilen syýahatyňyzyň ýatdan çykmajakdygyna ynanýarys. Syýahatyňyz üçin bizi saýlanyňyza sag bolsun aýtýarys. Size ýakymly uçuş arzuw edýäris we sizi ýene uçarymyzda görmäge umyt edýäris!"
+  },
+  "Movie": {
+    "movie-input": "Kinonyň ady",
+    "genre": "Žanrlar"
+  },
+  "Music": {
+    "music-input": "Aýdymyň ady",
+    "popular-artist": "Meşhur aýdymçylar",
+    "turkmen-music": "Türkmen aýdymlary",
+    "top-music": "TOP daşary ýyrt aýdymlary"
+  }
+}

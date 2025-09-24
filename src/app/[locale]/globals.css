@@ -1,0 +1,13 @@
+@import "../../../node_modules/tailwindcss";
+
+.main-color{
+  background: #009D3F;
+}
+.main-text{
+  color:#009D3F;
+}
+
+.main-border{
+  border:1px solid #009D3F;
+  border-radius: 10px;
+}
