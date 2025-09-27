@@ -10,6 +10,7 @@ import {usePathname} from "next/navigation";
 const Footer = () => {
     const t = useTranslations('Header');
     const pathname = usePathname();
+    const [ , locale ] = pathname.split('/');
 
     const firstSegment = pathname.split('/')[1];
     const hideMenu = ['en', 'ru', 'tk'].includes(firstSegment) && pathname.split('/').length === 2;
@@ -21,7 +22,7 @@ const Footer = () => {
         {href: '/navigation', label: t('navigation'), icon: <IoLocationOutline/>},
     ];
 
-    const isActive = (link: string) => pathname.endsWith(link);
+    const isActive = (link: string) => pathname.startsWith(`/${locale}${link}`);
 
     return (
         <div className="fixed w-full bottom-0 z-10">

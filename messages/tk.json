@@ -12,12 +12,19 @@
   },
   "Movie": {
     "movie-input": "Kinonyň ady",
-    "genre": "Žanrlar"
+    "genre": "Žanrlar",
+    "year": "Ýyl:",
+    "duration": "Dowamlylygy:",
+    "director": "Direktor:",
+    "lang": "Dil:",
+    "genre-page": "Žanr:",
+    "description": "Düşündiriş"
+
   },
   "Music": {
     "music-input": "Aýdymyň ady",
     "popular-artist": "Meşhur aýdymçylar",
-    "turkmen-music": "Türkmen aýdymlary",
-    "top-music": "TOP daşary ýyrt aýdymlary"
+    "turkmen-music": "Täze aýdymlar",
+    "top-music": "Top daşary ýyrt aýdymlary"
   }
 }

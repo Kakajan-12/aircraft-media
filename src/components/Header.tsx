@@ -23,7 +23,7 @@ const Header = () => {
         { href: '/navigation', label: t('navigation'), icon: <IoLocationOutline/> },
     ];
 
-    const isActive = (link: string) => pathname.endsWith(link);
+    const isActive = (link: string) => pathname.startsWith(`/${locale}${link}`);
 
     return (
         <div className="main-color fixed w-full top-0 z-30">
@@ -42,6 +42,7 @@ const Header = () => {
                         <div className="hidden lg:flex space-x-5 items-center rounded-full bg-white py-2 px-4">
                             {navItems.map(item => {
                                 const active = isActive(item.href);
+
                                 return (
                                     <Link
                                         key={item.href}

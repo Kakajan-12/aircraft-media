@@ -12,12 +12,18 @@
   },
   "Movie": {
     "movie-input": "Movie name",
-    "genre": "Genres"
+    "genre": "Genres",
+    "year": "Year:",
+    "duration": "Duration:",
+    "director": "Director:",
+    "lang": "Language:",
+    "genre-page": "Genre:",
+    "description": "Description"
   },
   "Music": {
     "music-input": "Music name",
     "popular-artist": "Popular musicians",
     "turkmen-music": "Turkmen music",
-    "top-music": "TOP Foreign Music"
+    "top-music": "Top foreign music"
   }
 }

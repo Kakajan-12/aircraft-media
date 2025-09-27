@@ -12,12 +12,18 @@
   },
   "Movie": {
     "movie-input": "Название фильма",
-    "genre": "Жанры"
+    "genre": "Жанры",
+    "year": "Год:",
+    "duration": "Продолжительность:",
+    "director": "Режиссер:",
+    "lang": "Язык:",
+    "genre-page": "Жанр:",
+    "description": "Описание"
   },
   "Music": {
     "music-input": "Имя музыки",
     "popular-artist": "Популярные музыканты",
-    "turkmen-music": "Туркменская музыка",
-    "top-music": "TOП Зарубежная музыка"
+    "turkmen-music": "Туркменские новинки",
+    "top-music": "Tоп зарубежных музыки"
   }
 }
