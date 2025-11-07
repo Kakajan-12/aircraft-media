@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Gelin Boldum",
+    "path": "/music/amalia-gelin-boldum.mp3",
+    "location": "Turkmen",
+    "artist": "AMALIA",
+    "photo": "/music/artist-image/amalia.webp"
+  },
+  {
+    "id": 2,
+    "title": "Men Ejemi Küýsärin",
+    "path": "/music/AMALIA-MenEjemiKüýsärin.mp3",
+    "location": "Turkmen",
+    "artist": "AMALIA",
+    "photo": "/music/artist-image/amalia.webp"
+  },
+  {
+    "id": 3,
+    "title": "Bu soygin sony boldy men dermansyz derdim",
+    "path": "/music/AmaliaZehin-Busoyginsonyboldymendermansyzderdim.mp3",
+    "location": "Turkmen",
+    "artist": "AMALIA",
+    "photo": "/music/artist-image/amalia.webp"
+  },
+  {
+    "id": 4,
+    "title": "Bu gije dine men owadan",
+    "path": "/music/AmaliaZehin-Bugijedinemenowadan.mp3",
+    "location": "Turkmen",
+    "artist": "AMALIA",
+    "photo": "/music/artist-image/amalia.webp"
+  },
+  {
+    "id": 5,
+    "title": "Gecermi",
+    "path": "/music/AmaliaZehin-Gecermi.mp3",
+    "location": "Turkmen",
+    "artist": "AMALIA",
+    "photo": "/music/artist-image/amalia.webp"
+  },
+  {
+    "id": 6,
+    "title": "Ofat-ofat",
+    "path": "/music/buzruk_-_Ofat-ofat_76328434.mp3",
+    "location": "International",
+    "artist": "buzruk",
+    "photo": "/music/artist-image/buzruk.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Chris_Grey_-_WRONG",
+    "path": "/music/Chris_Grey_-_WRONG_BaseNaija.mp3",
+    "location": "International",
+    "artist": "Chris_Grey",
+    "photo": "/music/artist-image/chris.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Kamillige Yol",
+    "path": "/music/DaliDade-KamilligeYol.mp3",
+    "location": "Turkmen",
+    "artist": "Däli Däde",
+    "photo": "/music/artist-image/dalidade.webp"
+  },
+  {
+    "id": 9,
+    "title": "Mätäç",
+    "path": "/music/DaliDade-Matac.mp3",
+    "location": "Turkmen",
+    "artist": "Däli Däde",
+    "photo": "/music/artist-image/dalidade.webp"
+  },
+  {
+    "id": 10,
+    "title": "Sho Sho",
+    "path": "/music/DaliDadeSBeater-ShoSho.mp3",
+    "location": "Turkmen",
+    "artist": "Däli Däde",
+    "photo": "/music/artist-image/dalidade.webp"
+  },
+  {
+    "id": 11,
+    "title": "Dost",
+    "path": "/music/DZ-EDMekanSaryyew-Dost.mp3",
+    "location": "Turkmen",
+    "artist": "DZ-ED",
+    "photo": "/music/artist-image/dz-ed.webp"
+  },
+  {
+    "id": 12,
+    "title": "Bash Tajim",
+    "path": "/music/DZ-ED,MEYLISHALBAYEW-BashTajim.mp3",
+    "location": "Turkmen",
+    "artist": "DZ-ED",
+    "photo": "/music/artist-image/dz-ed.webp"
+  },
+  {
+    "id": 13,
+    "title": "Noldan galan",
+    "path": "/music/DZ-EDMeýlisHalbaýewSahraGarajayeva-Noldangalan.mp3",
+    "location": "Turkmen",
+    "artist": "DZ-ED",
+    "photo": "/music/artist-image/dz-ed.webp"
+  },
+  {
+    "id": 14,
+    "title": "habary-yok",
+    "path": "/music/dz-ed-meylis-halbayew-habary-yok.mp3",
+    "location": "Turkmen",
+    "artist": "DZ-ED",
+    "photo": "/music/artist-image/dz-ed.webp"
+  },
+  {
+    "id": 15,
+    "title": "Ring_My_Bells",
+    "path": "/music/Enrique_Iglesias_-_Ring_My_Bells_53296228.mp3",
+    "location": "International",
+    "artist": "Enrique_Iglesias",
+    "photo": "/music/artist-image/enrique.jfif"
+  }
+]

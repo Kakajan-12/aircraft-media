@@ -25,7 +25,7 @@ const Footer = () => {
     const isActive = (link: string) => pathname.startsWith(`/${locale}${link}`);
 
     return (
-        <div className="fixed w-full bottom-0 z-10">
+        <div className="fixed w-full bottom-0 z-[400]">
             {!hideMenu && (
                 <div className="flex justify-between lg:hidden space-x-5 items-center bg-white py-2 px-6">
                     {navItems.map(item => {

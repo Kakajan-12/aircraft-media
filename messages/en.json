@@ -24,6 +24,10 @@
     "music-input": "Music name",
     "popular-artist": "Popular musicians",
     "turkmen-music": "Turkmen music",
-    "top-music": "Top foreign music"
+    "top-music": "Top foreign music",
+    "music": "Music"
+  },
+  "Books": {
+    "title": "«Lachyn» magazines"
   }
 }

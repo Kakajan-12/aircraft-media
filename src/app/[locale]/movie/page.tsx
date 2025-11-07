@@ -34,12 +34,18 @@ interface Movie {
 const Movie = () => {
     const t = useTranslations('Movie');
     const [movies, setMovies] = useState<Movie[]>([])
+    const [searchTerm, setSearchTerm] = useState('');
+
 
     useEffect(() => {
         fetch('/data/movie.json')
             .then(res => res.json())
             .then(setMovies)
     }, [])
+
+    const filteredMovies = movies.filter(movie =>
+        movie.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
 
     return (
         <div className="bg-white rounded-tr-xl rounded-tl-xl w-full mt-18 pb-14">
@@ -51,7 +57,10 @@ const Movie = () => {
                             type="text"
                             placeholder={t('movie-input')}
                             className="w-full md:w-1/2 outline-none main-border px-2 py-1"
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
                         />
+
                     </div>
 
                 </div>
@@ -76,7 +85,7 @@ const Movie = () => {
                     </Swiper>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-5 pt-5">
-                    {movies.map(movie => (
+                    {filteredMovies.map(movie => (
                         <Link
                             key={movie.id}
                             href={`/movie/${movie.id}`}
@@ -89,13 +98,15 @@ const Movie = () => {
                                 height={500}
                                 className="aspect-2/3 w-full object-cover rounded-lg"
                             />
-                            <div className="absolute top-3 left-3 text-sm main-color rounded-xl w-fit px-3 py-1 text-white">
+                            <div
+                                className="absolute top-3 left-3 text-sm main-color rounded-xl w-fit px-3 py-1 text-white">
                                 {movie.rating}
                             </div>
                             <div className="text-sm text-center mt-2">{movie.title}</div>
                         </Link>
                     ))}
                 </div>
+
             </div>
         </div>
     );
@@ -111,7 +122,7 @@ const movieItems = [
     {title: "Военные", icon: PiMedalMilitaryFill},
     {title: "Для детей", icon: MdOutlineChildCare},
     {title: "Биография", icon: IoPeopleSharp},
-    {title: "Игра", icon: IoGameController },
+    {title: "Игра", icon: IoGameController},
     {title: "Приключение", icon: GiRoad},
     {title: "Ток-шоу", icon: RiSlideshow3Fill},
     {title: "Исторический", icon: GiGreekTemple },

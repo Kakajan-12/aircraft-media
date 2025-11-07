@@ -25,6 +25,10 @@
     "music-input": "Aýdymyň ady",
     "popular-artist": "Meşhur aýdymçylar",
     "turkmen-music": "Täze aýdymlar",
-    "top-music": "Top daşary ýyrt aýdymlary"
+    "top-music": "Top daşary ýyrt aýdymlary",
+    "music": "Aýdymlar"
+  },
+  "Books": {
+    "title": "«Laçyn» žurnallar"
   }
 }

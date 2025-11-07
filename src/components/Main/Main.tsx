@@ -74,7 +74,7 @@ const Main = () => {
                                                className="aspect-3/2 w-full object-cover"/>
                                     </div>
                                 </Link>
-                                <Link href="/map" className="lg:w-fit">
+                                <Link href="/navigation" className="lg:w-fit">
                                     <div className="relative w-full aspect-3/2 lg:w-56 rounded-md">
                                         <div className="absolute inset-0 p-4">
                                             <div
