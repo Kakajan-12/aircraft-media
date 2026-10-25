@@ -1,14 +1,12 @@
 import type {Metadata} from "next";
-import {Geist, Geist_Mono} from "next/font/google";
+import {GeistSans} from "geist/font/sans";
+import {GeistMono} from "geist/font/mono";
 import "./globals.css";
 import Header from "@/components/Header";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Footer from "@/components/Footer";
-
-const geistSans = Geist({variable: "--font-geist-sans", subsets: ["latin"]});
-const geistMono = Geist_Mono({variable: "--font-geist-mono", subsets: ["latin"]});
 
 export const metadata: Metadata = {
     title: "Turkmenistan Airlines",
@@ -30,7 +28,7 @@ export default async function RootLayout({
 
     return (
         <html lang={locale}>
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased main-color`}>
+        <body className={`${GeistSans.variable} ${GeistMono.variable} antialiased main-color`}>
         <NextIntlClientProvider>
             <Header/>
             {children}
