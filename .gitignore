@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# media content (too large for git, deployed separately)
+/public/maps/
+/public/movie/
+/public/music/
+/public/books/*.pdf
